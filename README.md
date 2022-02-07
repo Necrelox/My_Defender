@@ -1,35 +1,46 @@
 # My_Defender
 
-![defender](https://user-images.githubusercontent.com/57537266/97714163-1b105e80-1ac1-11eb-9c11-01629330f706.png)
+![2022-02-07 13-35-43](https://user-images.githubusercontent.com/57537266/152789286-b02c0a01-a12b-4df9-9369-aaa16d419305.gif)
+
+# FR
 
 ## Defender
 
-Welcome to uncomplet Defender.
+Bienvenue sur My_defender, qui est un vieux projet que j'ai réalisé au cours de ma tout première année à Epitech.
+Le code est plutôt mauvais, mais ce projet a été fait avec le cœur et j'en suis toujours fière.
 
-For Start Game : ./my_defender (**need make re**)
+## Installation du projet
+Tout d'abord, vous devez posséder la librairie graphique CSFML,
 
-# REQUIREMENTS
+`sudo apt-get install libcsfml-dev libcsfml-doc` (libcsfml-doc non necessaire)
 
-## MUST :
-- A starting menu with at least two buttons, one to launch a game, and one to quit the game.
-- An escape key to pause the game when launched.
-- A menu when the game is paused with at least three buttons, one to resume the game, one to go to
-  the starting menu and the one to leave the game,
-- At least 4 different types of buildings (e.g. walls, slowing towers, damaging towers, etc. . . ),
-- A building menu showing the different available buildings and their price,
-- At least 2 different sound effects, and one looping background music.
+Ensuite, il suffit de faire un simple `make re`
 
-## SHOULD :
-- A windows that sticks between 800x600 pixels and 1920x1080 pixels.
-- A “How To play” menu, explaining how to play your game.
-- A stored scoreboard.
-- A scoreboard displayed at the end of a game, or thanks to a scoreboard button in the starting menu.
-- Buttons with at least three visual states: idle, hover, and clicked.
-- A way to skip eventual cut scenes or an animated intro.
-- Different types of enemies with different speed and hit points.
+## Lancement du projet
 
-## COULD :
-- Let the user upgrade its buildings,
-- Load buildings from files,
-- Take buildings files as command line argument,
-- Take buildings files from a menu inside the game,
+`./my_defender`
+
+## Touches
+
+	Utilisez Espace pour afficher les placements des tours.
+	Utilisez Echap pour mettre Pause ou Continuer le jeux.
+  
+ # ENG
+
+Hello and welcome on My_Runner whose name is SpookyRunner, which is an old project I made during my very first year at Epitech.
+The code is pretty bad, but this project was made with heart and I'm still proud of it.
+
+## Installation of the project
+First of all, you must have the CSFML graphic library,
+
+`sudo apt-get install libcsfml-dev libcsfml-doc` (libcsfml-doc not required)
+
+Then, it is enough to make a simple `make re`
+
+## Launching the project
+`./my_defender`
+
+## Key
+
+	Use Space to display the tower placements.
+	Use Escape to pause or continue the game.
